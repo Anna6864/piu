@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: inherit;
+  transition: transform 0.2s;
+  width: 120px;
+}
+
+.card img {
+  width: 80px;
+  height: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.detalhes {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+  text-align: center;
+}
+
+.detalhes img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
