@@ -1,0 +1,31 @@
+
+.contador-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+/* definindo a fonte e o tamanho da margem */ 
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease color 0.3s ease, border-color 0.3s ease;
+  }
+  /* considerando todos os botões todos irão seguir a mesma lógica, tamanho da fonte espaçamento, margem, 
+  tamanho da borda com o arrendondamento das bordas usando border-radius e o restante transition e cursor irá aparecer atraves dos clique junto com a ajuda das funçoes porqwue ao chegar no valor determinado ele irá mudar a cor */
+  
+  .btn-incrementar.ativo {
+    background-color: green;
+    color: white;
+    border-color: green;
+  }
+  
+  .btn-decrementar.ativo {
+    background-color: red;
+    color: white;
+    border-color: red;
+  }

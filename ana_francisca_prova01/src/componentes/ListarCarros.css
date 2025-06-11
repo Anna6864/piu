@@ -1,0 +1,17 @@
+.lista-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  /* definindo a fonte e o tamanho da margem */
+  
+  .lista-container ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+   /* removendo marcadores da lista (none, para nao aparecer as "bolinhas") e tamanho do espaço */
+  
+  .lista-container li {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+/* definindo o tamanho da fonte e tamanho do espaço */
