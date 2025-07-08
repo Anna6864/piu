@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 2rem 0;
+  background: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.card {
+  background: #fdf6f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #880e4f;
+}
+
+h2 {
+  margin-bottom: 0.8rem;
+  color: #aa336a;
+  font-size: 1.1rem;
+}
+
+.contadores {
+  background: #fff;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  color: #333;
+  text-align: left;
+  font-weight: bold;
+}
+
+.filtro {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #444;
+}
+
+.filtro select {
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+button {
+  background: #aa004f;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: #80003a;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.lista li {
+  background: #fce4ec;
+  margin-bottom: 0.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  gap: 0.6rem;
+}
+
+.simbolo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  min-width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.realizada {
+  color: #388e3c;
+}
+
+.nao-realizada {
+  color: #d32f2f;
+}
+
+.pendente {
+  color: #f57c00;
+}
+
+.botoes {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.botoes button {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.75rem;
+  min-width: 40px;
+  border-radius: 5px;
+}
+
+.resetar-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.resetar {
+  background: #ad1457;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.resetar:hover {
+  background: #880e4f;
+}
