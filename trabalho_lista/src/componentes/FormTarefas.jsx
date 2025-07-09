@@ -33,9 +33,12 @@ function FormTarefas() {
     setIndiceEdicao(i);
   };
 
-  const mudarStatus = (i, status) => {
+  const mudarStatus = (i, novoStatus) => {
     const novasTarefas = [...tarefas];
-    novasTarefas[i].status = status;
+    novasTarefas[i] = {
+      ...novasTarefas[i],
+      status: novoStatus,
+    };
     setTarefas(novasTarefas);
   };
 
