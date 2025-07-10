@@ -35,6 +35,7 @@ function FormTarefas() {
   };
 
   const mudarStatus = (i, novoStatus) => {
+
     const novasTarefas = [...tarefas]; // copia lista
     novasTarefas[i] = {
       ...novasTarefas[i],
@@ -132,3 +133,4 @@ function FormTarefas() {
 }
 
 export default FormTarefas; 
+
